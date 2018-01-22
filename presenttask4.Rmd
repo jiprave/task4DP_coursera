@@ -64,12 +64,12 @@ horiz<<-input$horiz;colorin<<-input$colorin
 my.plot.top(g,my.variab,horiz,colorin)
         })
 ```
-[See the complete code for the app]()
+[See the complete code for the app on GitHub](https://github.com/jiprave/task4DP_coursera)
 
 
 ## 5. The web app
 ![](figapp.png "titulo")
 
-In the Figure, the 5 most harmful events for the health of the population are presented (using a variable based on the count by event-year). The user can choose another variable, change the color and position of the bars. [App link](https://idinnov.shinyapps.io/tas4_dp/)
+In the Figure, the 5 most harmful events for the health of the population are presented (using a variable based on the count by event-year). The user can choose another variable, change the color and position of the bars. [See Shiny App](https://idinnov.shinyapps.io/tas4_dp/)
 
 .
