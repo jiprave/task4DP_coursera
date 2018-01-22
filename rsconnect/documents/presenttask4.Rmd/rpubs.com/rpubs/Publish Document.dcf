@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/351131/699ccd8e39a44ad8ae44f43510a9bbad
+bundleId: https://api.rpubs.com/api/v1/document/351131/699ccd8e39a44ad8ae44f43510a9bbad
+url: http://rpubs.com/jiprave/351131
+when: 1516594876.33598

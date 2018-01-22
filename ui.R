@@ -6,11 +6,13 @@ library(shiny)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Task 4 - Exploring more risky natural events"),
+  titlePanel("Task4. Exploring more risky natural events. By: JPR"),
   
   h4("This app presents an example of exploratory analysis for a Coursera course. 
 It is a teaching - learning exercise, it does not correspond to official statistics."),
   
+  h4(a("See the documentation",href="http://rpubs.com/jiprave/351131", 
+       target="_blank")),
   br(),
   
   # Sidebar with a slider input for number of bins 

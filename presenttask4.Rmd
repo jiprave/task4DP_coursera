@@ -21,7 +21,7 @@ Exploratory evidence is provided for one question based on the most harmful type
 
 ## 2. PROCEDURE
 
-- Preparing data: The original data has observations from 1955 to 2011 (years); however, this analysis only used observations from 1996 to 2011 (higher quality and complete data set). The data were obtain from U.S. [National Oceanic and Atmospheric Administration's (NOAA) storm database](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2). These consist of 902297 observations and 38 variables. However, the dataset was cleaned and aggregated ([see the data preparation process)](http://rpubs.com/jiprave/project2_exploring-data")
+- Preparing data: The original data has observations from 1955 to 2011 (years); however, this analysis only used observations from 1996 to 2011 (higher quality and complete data set). The data were obtain from U.S. [National Oceanic and Atmospheric Administration's (NOAA) storm database](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2). These consist of 902297 observations and 38 variables. However, the dataset was cleaned and aggregated. ([See the data preparation)](http://rpubs.com/jiprave/project2_exploring-data)
 
 - Analizing data: "Which types of events are most harmful to population health?" (Results using bar plot). The user can modify severa options (variable for analiysis, color of bars and horizontal or vertical bars).
 
@@ -49,6 +49,7 @@ plotOutput("bars")
 ```
 
 ## 4. SERVER - only main components of shinyServer
+[See the complete code for the app on GitHub](https://github.com/jiprave/task4DP_coursera)
 ```{r server, echo=TRUE, eval=FALSE}
 shinyServer(function(input, output) {
 #Reactive function
@@ -64,8 +65,6 @@ horiz<<-input$horiz;colorin<<-input$colorin
 my.plot.top(g,my.variab,horiz,colorin)
         })
 ```
-[See the complete code for the app on GitHub](https://github.com/jiprave/task4DP_coursera)
-
 
 ## 5. The web app
 ![](figapp.png "titulo")
